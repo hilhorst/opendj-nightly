@@ -15,6 +15,7 @@ CMD	/opt/opendj/setup \
 		--acceptLicense \
 		--hostname "$LDAP_HOSTNAME" \
 		--baseDN "$LDAP_BASE_DN" \
+		--addBaseEntry \
 		--rootUserDN "$LDAP_ROOT_USER_DN" \
 		--rootUserPassword "$LDAP_ROOT_USER_PASS" \
 		--generateSelfSignedCertificate \
